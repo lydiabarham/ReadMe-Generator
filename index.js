@@ -51,4 +51,4 @@ promptUser()
   .then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
   .then(() => console.log('Successfully wrote to README.md'))
   .catch((err) => console.error(err));
-
+  

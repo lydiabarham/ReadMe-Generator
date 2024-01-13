@@ -1,23 +1,23 @@
-# My Project One
+# Marcus
   
     #Description
-    This is my project
+    Marcus is great 
 
     #Table of Contents
 
     #Installation
-    Install wisely
+    Install on sofa with book and tea 
 
     #Usage
-    Use often
+    Do not use, nurture
 
     #License
 
     #Contributing
-    None
+    Contribute wisely or not at all
 
     #Tests
-    Test it 
+    Be sure to feed eggs 
 
     #Questions
 

@@ -29,6 +29,12 @@ const promptUser = () => {
       message: "Enter your project's usage information",
     },
     {
+        type: 'list',
+        name: 'license',
+        message: 'What project does your project use?',
+        choices: ['The MIT License', 'Apache 2.0 License', 'ISC License (ISC)', 'BSD 3-Clause License', 'BSD 2-Clause License', 'CC0', 'GNU GPL v3', 'Eclipse Public License 1.0', 'Mozilla Public License 2.0', new inquirer.Separator(), 'No license' ],
+    },
+    {
       type: 'input',
       name: 'contribution',
       message: 'Provide contribution guidelines for your project',

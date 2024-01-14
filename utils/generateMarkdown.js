@@ -1,31 +1,4 @@
-// // function to read user license answer
-// let licenseIcon = () => {
-//     switch(data.license) {
-//     case 'The MIT License':
-//         return 'The MIT License'
-//     case 'Apache 2.0 License':
-//         return 'Apache 2.0 License'
-//     case  'ISC License (ISC)':
-//         return 'ISC License (ISC)';
-//     case  'BSD 3-Clause License':
-//         return 'BSD 3-Clause License';
-//     case 'BSD 2-Clause License':
-//         return 'BSD 2-Clause License';
-//     case 'CC0':
-//         return 'CC0';
-//     case 'GNU GPL v3':
-//         return 'GNU GPL v3';
-//     case 'Eclipse Public License 1.0':
-//         return 'Eclipse Public License 1.0';
-//     case 'Mozilla Public License 2.0':
-//         return 'Mozilla Public License 2.0';
-//     case 'no license': 
-//         return 'no license';
-//     default: 
-//         return 'error';
-//   };
-// };
-
+// function to generate a URL based on answer from license list
 const displayLicenseIcon = (licenseAnswer) => {
     return licenseAnswer === 'The MIT License'? '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)':
     licenseAnswer === 'Apache 2.0 License'? '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)':
@@ -58,7 +31,7 @@ function generateMarkdown(data) {
     ${data.usage}
 
     ## License
-    ${data.license}
+    This application is covered by: ${data.license}
 
     ## Contributing
     ${data.contribution}
@@ -67,6 +40,8 @@ function generateMarkdown(data) {
     ${data.test}
 
     ## Questions
+    GitHub username: [${data.github}](${data.github})
+    Email: [${data.email}](${data.email})
 
   `;
   }

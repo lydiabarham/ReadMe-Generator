@@ -16,17 +16,17 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'description',
-      message: 'Provide a description of your project',
+      message: 'Provide a description of your project:',
     },
     {
       type: 'input',
       name: 'installation',
-      message: 'Enter installation instructions for your project',
+      message: 'Enter installation instructions for your project:',
     },
     {
       type: 'input',
       name: 'usage',
-      message: "Enter your project's usage information",
+      message: "Enter your project's usage information:",
     },
     {
         type: 'list',
@@ -37,12 +37,22 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'contribution',
-      message: 'Provide contribution guidelines for your project',
+      message: 'Provide contribution guidelines for your project:',
     },
     {
       type: 'input',
       name: 'test',
-      message: "Enter your project's test instructions",
+      message: "Enter your project's test instructions:",
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: "Enter your GitHub URL:",
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: "Enter your email address:",
     },
   ]);
 };

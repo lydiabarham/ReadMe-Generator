@@ -17,31 +17,31 @@ const displayLicenseIcon = (licenseAnswer) => {
 function generateMarkdown(data) {
     return `# ${data.title}
 
-    ${displayLicenseIcon(data.license)}
+${displayLicenseIcon(data.license)}
   
-    ## Description
-    ${data.description}
+## Description
+${data.description}
 
-    ## Table of Contents
+## Table of Contents
 
-    ## Installation
-    ${data.installation}
+## Installation
+${data.installation}
 
-    ## Usage
-    ${data.usage}
+## Usage
+${data.usage}
 
-    ## License
-    This application is covered by: ${data.license}
+## License
+This application is covered by: ${data.license}
 
-    ## Contributing
-    ${data.contribution}
+## Contributing
+${data.contribution}
 
-    ## Tests
-    ${data.test}
+## Tests
+${data.test}
 
-    ## Questions
-    GitHub username: [${data.github}](${data.github})
-    Email: [${data.email}](${data.email})
+## Questions
+GitHub username: [${data.github}](${data.github})
+Email: [${data.email}](${data.email})
 
   `;
   }

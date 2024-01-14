@@ -2,8 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
+<<<<<<< HEAD
 ## Description
 It is a project
+=======
+    ## Description
+This is a readme 
+>>>>>>> 8b6783c917f092b04359721cb0bd26a64e9ac093
 
 ## Table of Contents
 

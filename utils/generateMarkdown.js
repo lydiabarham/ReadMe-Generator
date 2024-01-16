@@ -24,6 +24,13 @@ ${data.description}
 
 ## Table of Contents
 
+[Installation](##Installation)\n
+[Usage](##Usage)\n
+[License](##License)\n
+[Contributing](##Contributing)\n
+[Tests](##Tests)\n
+[Questions](##Questions)\n
+
 ## Installation
 ${data.installation}
 
@@ -41,6 +48,7 @@ ${data.test}
 
 ## Questions
 GitHub username: [${data.github}](${data.github})
+
 Email: [${data.email}](${data.email})
 
   `;

@@ -49,7 +49,7 @@ ${data.test}
 ## Questions
 GitHub username: [${data.github}](${data.github})
 
-Email: [${data.email}](${data.email})
+Email: [${data.email}](mailto:${data.email}?subject=Questions)
 
   `;
   }

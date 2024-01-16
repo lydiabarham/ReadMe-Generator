@@ -58,7 +58,7 @@ const promptUser = () => {
 };
 
 promptUser()
-  .then((answers) => writeFileAsync('SAMPLEREADME.md', generateMarkdown(answers)))
+  .then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
   .then(() => console.log('Successfully wrote to README.md'))
   .catch((err) => console.error(err));
   

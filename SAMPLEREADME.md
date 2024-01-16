@@ -3,37 +3,31 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
 ## Description
-This is a description of the site that I have built.
+This is a description of the project I have built.
 
 ## Table of Contents
 
-[Installation](##Installation)
-
-[Usage](##Usage)
-
-[License](##License)
-
-[Contributing](##Contributing)
-
-[Tests](##Tests)
-
-[Questions](##Questions)
-
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
-This section outlines the installation instructions.
+This section describes how to install the project.
 
 ## Usage
-In this section, I outline how to use the site.
+Here, the usage instructions are described.
 
 ## License
 This application is covered by: Apache 2.0 License
 
 ## Contributing
-Here is where the contribution guidelines are set out for my project.
+The guidelines for contributing to this project are as follows...
 
 ## Tests
-This is how to make tests on the site.
+The project should be tested in the following ways...
 
 ## Questions
 GitHub username: [https://github.com/lydiabarham](https://github.com/lydiabarham)

@@ -24,12 +24,12 @@ ${data.description}
 
 ## Table of Contents
 
-[Installation](##Installation)\n
-[Usage](##Usage)\n
-[License](##License)\n
-[Contributing](##Contributing)\n
-[Tests](##Tests)\n
-[Questions](##Questions)\n
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${data.installation}

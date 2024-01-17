@@ -1,6 +1,4 @@
 # ReadMe Generator
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
 This application runs in the terminal using Node.js. Users are able to creat a professional ReadMe markdown file in the correct order, with useful links, the licence logo of the most common open source licenses, and a table of contents leading to easy access to each of the headers in the file.

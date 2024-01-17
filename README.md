@@ -26,7 +26,7 @@ The user is presented a number of prompts, which will display under the heading 
 ![This image shows how the application displays in the terminal.](image.png)
 
 ## License
-This application is covered by: The MIT License
+This application is covered by: no license
 
 ## Contributing
 Here is where contribution guidelines sit when applicable.

@@ -23,6 +23,8 @@ The user is presented a number of prompts, which will display under the heading 
 
 ![This image shows how the application displays in the terminal.](image.png)
 
+Here is a link to a walk through video demonstrating how to use the application: https://drive.google.com/file/d/14-vDtQZILTt-AqTguRzilDxIr2XvJi5d/view?usp=sharingLinks to an external site.
+
 ## License
 This application is covered by: no license
 
